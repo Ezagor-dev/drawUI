@@ -2,15 +2,14 @@
 //  ContentView.swift
 //  UIDraw
 //
-//  Created by Jordan Singer on 11/24/23.
-//
+//  Forked by Ezagor on 11/24/23.
 
 import SwiftUI
 import PencilKit
 import WebKit
 import Foundation
 
-let OPENAIKEY = "REPLACE_ME"
+let OPENAIKEY = "YOUR_API"
 let systemPrompt = """
 You are an expert web developer who specializes in tailwind css.
 A user will provide you with a low-fidelity wireframe of an application.
@@ -327,3 +326,5 @@ struct WebView: UIViewRepresentable {
     func updateUIView(_ uiView: WKWebView, context: Context) {
     }
 }
+
+//  Created by Jordan Singer on 11/24/23. Thanks..
